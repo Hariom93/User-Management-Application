@@ -1,0 +1,53 @@
+
+form {
+  max-width: 600px;
+  margin: 20px auto; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+label {
+  display: block; 
+  margin-bottom: 8px; 
+  font-weight: bold; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"] {
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 15px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  font-size: 16px; 
+}
+
+.btn-Join{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    width: 400px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-Join:hover {
+    background-color: #0056b3;
+  }
+  
+
+.error {
+  color: red; 
+  font-size: 0.9em; 
+  margin-top: -10px; 
+  margin-bottom: 10px; 
+}

@@ -1,0 +1,65 @@
+/* Table Style */
+.user-list {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Header */
+  .user-list th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  /* Table Data */
+  .user-list td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 15px;
+  }
+  
+  /* Alternating Row Colors */
+  .user-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover Effect on Rows */
+  .user-list tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+ .deleteBtn{
+     margin-top: 5px;
+     display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+     background-color: rgb(214, 59, 59);
+    }
+    .deleteBtn:hover{
+     background-color: rgb(188, 29, 29);
+ }
+ .editBtn{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ .editBtn:hover{
+    background-color: rgb(53, 106, 190);
+ }
